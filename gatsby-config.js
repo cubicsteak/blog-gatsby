@@ -12,7 +12,7 @@ module.exports = {
     title: `Gatsby Starter Blog`,
     author: {
       name: `Big+`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      summary: `Justice ain't gonna dispense itself. Someone has to fill this saddle.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://blog-4bigchoi23.netlify.app/`,
