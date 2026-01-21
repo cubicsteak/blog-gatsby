@@ -11,11 +11,11 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Starter Blog`,
     author: {
-      name: `Big+`,
+      name: `Brad`,
       summary: `Justice ain't gonna dispense itself. Someone has to fill this saddle.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://blog-4bigchoi23.netlify.app/`,
+    siteUrl: `https://blog-cubicsteak.netlify.app/`,
     social: {
       twitter: `4bigchoi23`,
     },
