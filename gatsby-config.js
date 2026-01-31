@@ -17,7 +17,7 @@ module.exports = {
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://blog-cubicsteak.netlify.app/`,
     social: {
-      twitter: `4bigchoi23`,
+      twitter: ``,
     },
   },
   plugins: [
@@ -43,7 +43,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 630,
+              maxWidth: 768,
             },
           },
           {

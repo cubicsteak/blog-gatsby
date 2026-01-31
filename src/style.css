@@ -11,7 +11,7 @@
   --maxWidth-3xl: 48rem;
   --maxWidth-4xl: 56rem;
   --maxWidth-full: "100%";
-  --maxWidth-wrapper: var(--maxWidth-2xl);
+  --maxWidth-wrapper: var(--maxWidth-3xl);
   --spacing-px: "1px";
   --spacing-0: 0;
   --spacing-1: 0.25rem;
@@ -38,7 +38,7 @@
   --fontFamily-monospace: "Noto Sans Mono", 
     Menlo, Consolas, "Courier New", monospace;
   --font-body: var(--fontFamily-serif);
-  --font-heading: var(--fontFamily-sans);
+  --font-heading: var(--fontFamily-serif);
   --fontWeight-normal: 400;
   --fontWeight-bold: 700;
   --fontWeight-black: 900;
@@ -56,13 +56,13 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #e83e8c;
-  --color-text: #dee2e6;
-  --color-text-light: #cccccc;
-  --color-heading: #eeeeee;
-  --color-heading-black: #ffffff;
-  --color-accent: #444444;
-  --color-background: #212529;
+  --color-primary: #d63384;
+  --color-text: #fafafa;
+  --color-text-light: #ccc;
+  --color-heading: #eee;
+  --color-heading-black: #fff;
+  --color-accent: #666;
+  --color-background: #09090b;
 }
 
 /* HTML elements */
@@ -230,11 +230,17 @@ table thead tr th {
 
 a {
   color: var(--color-primary);
+  text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+a, a:link, a:visited, a:hover, a:active, a:focus {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.25rem;
 }
 
 /* Custom classes */
@@ -254,6 +260,7 @@ a:focus {
 }
 
 .main-heading {
+  font-family: var(--fontFamily-sans);
   font-size: var(--fontSize-7);
   margin: 0;
 }
@@ -273,9 +280,13 @@ a:focus {
   margin-bottom: var(--spacing-2);
   margin-top: var(--spacing-0);
 }
+.post-list-item small {
+  display: block;
+  margin-bottom: var(--spacing-2);
+}
 
 .post-list-item header {
-  margin-bottom: var(--spacing-4);
+  margin-bottom: var(--spacing-2);
 }
 
 .header-link-home {
