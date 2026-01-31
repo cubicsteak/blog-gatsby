@@ -283,6 +283,7 @@ a, a:link, a:visited, a:hover, a:active, a:focus {
 .post-list-item small {
   display: block;
   margin-bottom: var(--spacing-2);
+  color: var(--color-accent);
 }
 
 .post-list-item header {
