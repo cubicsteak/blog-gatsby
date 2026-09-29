@@ -15,7 +15,7 @@ module.exports = {
       summary: `Justice ain't gonna dispense itself. Someone has to fill this saddle.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://blog-cubicsteak.netlify.app/`,
+    siteUrl: `https://gatsby-e86.pages.dev/`,
     social: {
       twitter: ``,
     },
